@@ -28,6 +28,7 @@ namespace HotelListing
         {
             services.AddControllers();
 
+            //code was updated on github
             services.AddCors(o =>
             {
                 o.AddPolicy("AllowAll", builder => 
