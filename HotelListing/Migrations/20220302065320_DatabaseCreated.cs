@@ -14,7 +14,7 @@ namespace HotelListing.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ShortName = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
+                }, 
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Countries", x => x.Id);
