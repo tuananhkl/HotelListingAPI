@@ -5,10 +5,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AspNetCoreRateLimit" Version="4.0.2" />
         <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+        <PackageReference Include="Marvin.Cache.Headers" Version="6.1.0" />
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.16" />
         <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.15" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.15" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.15" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.15">
           <PrivateAssets>all</PrivateAssets>
@@ -22,6 +25,7 @@
         <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
         <PackageReference Include="Serilog.AspNetCore" Version="5.0.1-dev-00262" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+        <PackageReference Include="X.PagedList.Mvc.Core" Version="8.4.0" />
     </ItemGroup>
 
 </Project>
