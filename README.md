@@ -1,5 +1,7 @@
 # HotelListingAPI
 #### Live project: [Preview Link](https://hotellisting-220510145023.azurewebsites.net/swagger/index.html)
+<sub>(Roles: user or administrator in case you want to use the Register endpoint)</sub>
+
 - Logging using `SeriLog`
 - Documenting using `Swagger UI`
 - Enable and configure resource sharing using `CORS`
